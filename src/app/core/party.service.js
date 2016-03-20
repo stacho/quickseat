@@ -31,7 +31,7 @@
         
         function getPartiesByUser(uid) {
             if(!parties) {
-                patires = $firebaseArray(firebaseDataService.users.child(uid).child('parties'))
+                parties = $firebaseArray(firebaseDataService.users.child(uid).child('parties'))
             }
             return parties;
         }
