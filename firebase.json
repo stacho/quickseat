@@ -1,0 +1,9 @@
+{
+  "firebase": "stacho-wait-and-eat",
+  "public": "src",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

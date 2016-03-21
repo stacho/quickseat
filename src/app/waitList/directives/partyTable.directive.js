@@ -7,7 +7,7 @@
     
     function psPartyTable() {
         return {
-            templateUrl: 'app/waitLIst/directives/partyTable.html',
+            templateUrl: 'app/waitList/directives/partyTable.html',
             restrict: 'E',
             controller: PartyTableController,
             controllerAs: 'vm',
